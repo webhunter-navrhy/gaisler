@@ -1,0 +1,43 @@
+{
+  "slug": "gaisler",
+  "nazev": "GAISLER Zlín",
+  "url": "https://webhunter-navrhy.github.io/gaisler/",
+  "base": "/gaisler/",
+  "lang": "cs",
+  "popis": "Doprodej školních tabulí a vitrín GAISLER Zlín: pylonové tabule, korková vitrína a otočná keramická tabule skladem za akční ceny.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "triptych-otevreny.jpg",
+  "logo": "",
+  "theme_color": "#f3f1ea",
+  "typ": "Organization",
+  "ico": "",
+  "kontakt": {
+    "email": "gaisler@gaisler.zlin.cz",
+    "telefon": "",
+    "adresa": {
+      "ulice": "",
+      "psc": "",
+      "mesto": "Zlín",
+      "zeme": "CZ"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Poptávka z webu"
+  },
+  "nav": [
+    {
+      "text": "Katalog",
+      "href": "#katalog"
+    },
+    {
+      "text": "Jak objednat",
+      "href": "#objednat"
+    }
+  ]
+}

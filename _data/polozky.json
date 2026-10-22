@@ -1,0 +1,23 @@
+[
+ {"id":"triptych","cislo":"01","nazev":"Pylonová tabule TRIPTYCH","podnadpis":"keramická, bílá, 120×200/400 cm","kusu":1,
+  "popis":"Tříplošná pylonová tabule s keramickým povrchem PolyVision. Plochy jsou bílé a určené pro popis za sucha stíratelným fixem. Sloupy z eloxovaného hliníku, střední odkládací lišta.",
+  "parametry":[["Rozměr","120×200/400 cm"],["Povrch","keramika PolyVision, bílá (B-B-B-B-B)"],["Popis","za sucha stíratelným fixem"],["Pylonové sloupy","eloxovaný hliník, výška 300 cm"],["Odkládací lišta","středová, hliníková, 200 cm"]],
+  "foto":["triptych-otevreny.jpg","triptych-zavreny.jpg"],"alt":["Pylonová tabule triptych s rozloženými bočními křídly","Pylonová tabule triptych se zavřenými křídly"],
+  "cena":"25 000","bez_dph":"20 662","odkaz":"http://www.gaisler.zlin.cz/product/13147.pylonove_tabule_sestavy/"},
+ {"id":"single","cislo":"02","nazev":"Pylonová tabule jednolistá SINGLE","podnadpis":"keramická, zelená, 120×200 cm","kusu":4,
+  "popis":"Jednolistá pylonová tabule s keramickým povrchem PolyVision v zelené barvě pro popis křídou. Sloupy z eloxovaného hliníku, velká středová odkládací lišta.",
+  "parametry":[["Rozměr","120×200 cm"],["Povrch","keramika PolyVision, zelená"],["Popis","křídou"],["Pylonové sloupy","eloxovaný hliník, výška 300 cm"],["Odkládací lišta","středová, hliníková, velká"]],
+  "foto":["single-zelena.jpg"],"alt":["Pylonová tabule SINGLE se zelenou keramickou plochou"],
+  "cena":"9 200","bez_dph":"7 604","odkaz":"http://www.gaisler.zlin.cz/product/13147.pylonove_tabule_sestavy/"},
+ {"id":"vitrina","cislo":"03","nazev":"Interiérová vitrína s korkovou výplní","podnadpis":"60×90 cm, uzamykatelná","kusu":2,
+  "popis":"Uzamykatelná chráněná nástěnka s korkovou výplní. Hliníkový rám, dvířka s výplní z plexiskla, zámek a 2 klíče. Zavěšuje se na výšku, otevírá se zprava doleva.",
+  "parametry":[["Rozměr","60×90 cm"],["Výplň","korek"],["Rám","hliník, dvířka s plexisklem"],["Uzamykání","zámek + 2 klíče"],["Zavěšení","na výšku (portrét)"],["Hloubka meziprostoru","20 mm"]],
+  "foto":["vitrina-korek.jpg"],"alt":["Uzamykatelná vitrína s korkovou výplní a vyvěšenými papíry"],
+  "cena":"2 990","bez_dph":"2 472","odkaz":"http://www.gaisler.zlin.cz/page/11181.korkova_vitrina_vitriny_interierove_vypln/"},
+ {"id":"otocna","cislo":"04","nazev":"Mobilní otočná keramická tabule","podnadpis":"bílá, na pojízdném stojanu","kusu":3,
+  "popis":"Tabule se dvěma bílými plochami otočná kolem vodorovné osy o 360°. Povrch keramika PolyVision, rám z eloxovaného hliníku šíře 25 mm. Obě plochy jsou na popis stíratelným fixem i na magnety. Pojízdný stojan tvaru „H“ s brzdou na kolečkách, aretace drží tabuli v libovolném náklonu, velká odkládací lišta.",
+  "parametry":[["Plochy","2× bílá keramika, oboustranná"],["Rám","eloxovaný hliník, 25 mm"],["Otáčení","360°, aretace náklonu"],["Stojan","tvar „H“, kolečka s brzdou"],["Odkládací lišta","velká"]],
+  "foto":["otocna-tabule.jpg"],"alt":["Mobilní otočná bílá tabule na pojízdném stojanu"],
+  "varianty":[{"rozmer":"90×120 cm","kusu":1,"cena":"7 115","bez_dph":"5 880"},{"rozmer":"100×150 cm","kusu":2,"cena":"8 289","bez_dph":"6 850"}],
+  "odkaz":"http://www.gaisler.zlin.cz/product/3043.otocna-tabule-mobilni-pojizdna/"}
+]
