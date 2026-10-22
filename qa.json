@@ -2,9 +2,7 @@
   "url": "https://webhunter-navrhy.github.io/gaisler/",
   "ok": true,
   "chyby": [],
-  "varovani": [
-    "Dotykové cíle <40 px na mobilu: 1× (např. a \"gaisler@gaisler.zlin\" 148×16)"
-  ],
+  "varovani": [],
   "metriky": {
     "sirky": {
       "1440": {
@@ -58,7 +56,7 @@
       "canonical": true,
       "viewport": true
     },
-    "maly_dotykovy_cil": 1,
+    "maly_dotykovy_cil": 0,
     "font_nadpis": "Archivo",
     "font_text": "IBM Plex Mono",
     "podstranky": {

@@ -1,16 +1,18 @@
 {
   "znamka": 7,
   "slabiny": [
-    "Hero (PC 1440 i mobil 390): na první obrazovce není jediná fotka. Vpravo je velká prázdná plocha a malý box se statistikami, v jehož buňce „Ceny / s DPH“ není žádný údaj (na mobilu se láme na „s / DPH“). Box odstranit a místo něj dát velkou fotku TRIPTYCHU (nebo koláž čtyř produktů) s visačkou „od 2 990 Kč“. Text „Položky 4 · kusů skladem 10“ stačí jako jeden řádek pod perexem.",
-    "Hlavička na všech šířkách: textové logo se čte „GAISLER ZLÍNZlín“. Město je tam dvakrát a bez mezery, takže to vypadá jako chyba v názvu firmy. Nechat jen „GAISLER Zlín“ (GAISLER tučně, Zlín v modré #0049B3) a vpravo do hlavičky přidat e-mail gaisler@gaisler.zlin.cz jako odkaz. Teď je kontakt jen v patičce a jeho dotyková plocha je 148×16 px, padding zvětšit na výšku aspoň 44 px.",
-    "Produktové sekce 01–04: čtyři stejné bloky pod sebou s malou fotkou v rámečku (na PC asi 40 % šířky) a dlouhou tabulkou parametrů. Na mobilu je pak jeden produkt na 2–3 obrazovky textu. Fotku na PC zvětšit na zhruba 55 % šířky bez rámečku na bílé ploše. Parametry na mobilu dát do dvou sloupců (štítek–hodnota) a zobrazit nejvýš 4 hlavní, zbytek schovat pod „Všechny parametry“. Visačku s cenou a „Mám zájem“ posunout hned pod název, aby byla na mobilu nad ohybem."
+    "Hlavička na všech šířkách: GAISLER a Zlín se pořád čtou slepeně jako „GAISLERZlín“. Mezi slova vložit skutečnou mezeru nebo margin-left 0.3em, aby bylo vidět „GAISLER Zlín“. Na mobilu 390/360 px v hlavičce chybí e-mail gaisler@gaisler.zlin.cz, který je na PC vpravo. Doplnit ho na mobilu jako odkaz s výškou aspoň 44 px (např. ikona obálky vpravo vedle Katalog / Jak objednat, nebo druhý řádek pod logem).",
+    "Hero na PC 1440: fotka triptychu je jen střední snímek v rámečku na zhruba 40 % šířky, pod ní zůstává prázdná béžová plocha a první obrazovku pořád nese hlavně text. Fotku zvětšit na 55–60 % šířky a výšku zhruba 70 % viewportu, rámeček zrušit (fotka přímo na ploše) a visačku „od 2 990 Kč s DPH“ nechat v rohu fotky.",
+    "Produktové bloky 01–04: na PC je fotka pořád v rámečku na zhruba 49 % šířky. Zvětšit na 55 % a zrušit border (bílé pozadí produktu stačí). Na mobilu jsou parametry pořád pod sebou ve stylu štítek nad hodnotou. Dát je do dvou sloupců (štítek vlevo, hodnota vpravo na jednom řádku). Cenovku a „Mám zájem“ přesunout hned pod název a podtitul, před 4–6řádkový popis, aby byly na 390 px nad ohybem."
   ],
   "zavazne": [],
   "silne": [
-    "Jasný koncept doprodeje skladu: cenové visačky s dírkou, počtem kusů skladem a cenou s DPH i bez DPH sedí přesně k oboru a k účelu stránky.",
-    "Pravdivý obsah: čtyři položky, deset kusů a ceny odpovídají katalogu, nic není vymyšlené. Fotky jsou skutečné produkty.",
-    "Brand drží modrá #0049B3 v CTA i akcentech, na všech šířkách nic nepřetéká, stránka je lehká (0,41 MB) a hlavní akce „Mám zájem“ → e-shop je srozumitelná."
+    "Hero už ukazuje produkt (triptych) s visačkou „od 2 990 Kč s DPH“. Box se statistikami bez údaje zmizel a nahradil ho jeden řádek „4 položky · 10 kusů skladem · ceny s DPH“.",
+    "Nápad s cenovkou ze skladu (razítko SKLADEM X KS, cena s DPH i bez DPH, mono písmo) sedí k doprodeji a drží se v celém katalogu.",
+    "Brandová modrá #0049B3 je v logu, CTA i odkazech. Ceny i parametry odpovídají briefu a nic není vymyšlené.",
+    "Parametry zkrácené na 4 hlavní a zbytek pod „Všechny parametry“. QA je čistá: bez přetékání na 6 šířkách, bez malých dotykových cílů, 0,41 MB.",
+    "Sekce Jak objednat ve 3 krocích jasně vysvětluje, že objednávka proběhne na e-shopu."
   ],
-  "verdikt": "Funkční a poctivý katalog doprodeje s dobrým nápadem visaček. Hero bez fotky, chybné textové logo a čtyři monotónní produktové bloky s malými fotkami ho ale drží pod hranicí pro odeslání. Verdikt: opravit.",
-  "_hash": "6cab5b9563dd45caa9329a8b543b829fc7f0c1c7"
+  "verdikt": "Hlavní výtka je opravená: hero má fotku a cenu a box s prázdnou buňkou zmizel. Hlavička i produktové bloky jsou ale opravené jen napůl (slepené logo, chybějící e-mail na mobilu, menší fotky v rámečcích, cena až pod popisem). Bez závažných vad, ale na 8 to ještě není: opravit.",
+  "_hash": "bee9d00f27d26f7af7d199649aba024a0b0045c8"
 }

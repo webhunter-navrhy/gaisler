@@ -99,3 +99,16 @@ h2{margin:0;font:800 clamp(1.6rem,3.4vw,2.35rem)/1.1 var(--sans);letter-spacing:
 .hlavicka .kontakt{font:600 .9375rem var(--sans);text-decoration:none}
 @media(max-width:48rem){.hlavicka .kontakt{display:none}}
 .paticka a{display:inline-flex;align-items:center;min-height:2.75rem}
+
+.logo span{margin-left:.3em}
+.hlavicka .wrap{flex-wrap:wrap;row-gap:0}
+@media(max-width:48rem){.hlavicka .kontakt{display:inline-flex;order:3;flex-basis:100%;min-height:2.5rem;border-top:1px solid var(--cara);font-size:.875rem}}
+.uvod-foto{border:0;background:none;padding:0}
+.uvod-foto img{width:100%;max-height:70vh;object-fit:contain}
+@media(min-width:56rem){.uvod-mrizka{grid-template-columns:.8fr 1.2fr}}
+.foto-plocha{border:0;padding:0;background:var(--bila)}
+@media(min-width:62rem){.polozka{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}}
+.cedulky{margin:1rem 0 1.25rem}
+.udaje .tlacitko{margin-bottom:1.25rem}
+.popis{margin-top:0}
+@media(max-width:30rem){.parametry div{grid-template-columns:7.5rem 1fr;gap:.75rem}}
