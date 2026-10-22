@@ -9,11 +9,11 @@
     <div>
       <p class="stitek">Doprodej skladu</p>
       <h1>Školní tabule a vitríny skladem za akční ceny</h1>
-      <p class="perex">Pylonové tabule, korková vitrína a otočná keramická tabule. Každý kus je skladem a jde objednat na našem e-shopu.</p>
-      <p class="souhrn-radek">{{ data.polozky|length }} položky · {{ celkem.ks }} kusů skladem · ceny s DPH</p>
+      <p class="perex">Pylonové tabule, korková vitrína, otočná keramická tabule a drobné příslušenství. Každý kus je skladem a jde objednat na našem e-shopu.</p>
+      <p class="souhrn-radek">{{ data.polozky|length }} položek skladem · ceny s DPH</p>
       <a class="tlacitko" href="#katalog">Prohlédnout katalog</a>
     </div>
-    <div class="uvod-foto">{{ img('triptych-otevreny.jpg', 'Pylonová tabule TRIPTYCH s otevřenými křídly', sizes='(min-width: 56rem) 34rem, 100vw', eager=true) }}<p class="razitko-foto">od 2 990 Kč s DPH</p></div>
+    <div class="uvod-foto">{{ img('triptych-otevreny.jpg', 'Pylonová tabule TRIPTYCH s otevřenými křídly', sizes='(min-width: 56rem) 34rem, 100vw', eager=true) }}<p class="razitko-foto">od 40 Kč s DPH</p></div>
   </div>
 </section>
 
@@ -49,7 +49,7 @@
       {% else %}
       <div class="cedulky">
         <div class="cedulka">
-          <p class="razitko">skladem {{ p.kusu }} ks</p>
+          <p class="razitko">{{ p.kusu_text if 'kusu_text' in p else 'skladem ' ~ p.kusu ~ ' ks' }}</p>
           <p class="cena"><strong>{{ p.cena }} Kč</strong> <span>s DPH</span></p>
           <p class="bez">{{ p.bez_dph }} Kč bez DPH</p>
         </div>
