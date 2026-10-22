@@ -89,3 +89,4 @@ h2{margin:0;font:800 clamp(1.6rem,3.4vw,2.35rem)/1.1 var(--sans);letter-spacing:
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @media(max-width:36rem){.cedulka{transform:none!important}.hlavicka nav{gap:.9rem}}
 @media(max-width:30rem){.logo{font-size:1rem}.hlavicka nav a{font-size:.8125rem}}
+.logo,.hlavicka nav a{display:inline-flex;align-items:center;min-height:2.75rem}.doplneni a{min-height:2.75rem;display:inline-flex;align-items:center}
