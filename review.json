@@ -1,0 +1,16 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Hero (PC 1440 i mobil 390): na první obrazovce není jediná fotka. Vpravo je velká prázdná plocha a malý box se statistikami, v jehož buňce „Ceny / s DPH“ není žádný údaj (na mobilu se láme na „s / DPH“). Box odstranit a místo něj dát velkou fotku TRIPTYCHU (nebo koláž čtyř produktů) s visačkou „od 2 990 Kč“. Text „Položky 4 · kusů skladem 10“ stačí jako jeden řádek pod perexem.",
+    "Hlavička na všech šířkách: textové logo se čte „GAISLER ZLÍNZlín“. Město je tam dvakrát a bez mezery, takže to vypadá jako chyba v názvu firmy. Nechat jen „GAISLER Zlín“ (GAISLER tučně, Zlín v modré #0049B3) a vpravo do hlavičky přidat e-mail gaisler@gaisler.zlin.cz jako odkaz. Teď je kontakt jen v patičce a jeho dotyková plocha je 148×16 px, padding zvětšit na výšku aspoň 44 px.",
+    "Produktové sekce 01–04: čtyři stejné bloky pod sebou s malou fotkou v rámečku (na PC asi 40 % šířky) a dlouhou tabulkou parametrů. Na mobilu je pak jeden produkt na 2–3 obrazovky textu. Fotku na PC zvětšit na zhruba 55 % šířky bez rámečku na bílé ploše. Parametry na mobilu dát do dvou sloupců (štítek–hodnota) a zobrazit nejvýš 4 hlavní, zbytek schovat pod „Všechny parametry“. Visačku s cenou a „Mám zájem“ posunout hned pod název, aby byla na mobilu nad ohybem."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Jasný koncept doprodeje skladu: cenové visačky s dírkou, počtem kusů skladem a cenou s DPH i bez DPH sedí přesně k oboru a k účelu stránky.",
+    "Pravdivý obsah: čtyři položky, deset kusů a ceny odpovídají katalogu, nic není vymyšlené. Fotky jsou skutečné produkty.",
+    "Brand drží modrá #0049B3 v CTA i akcentech, na všech šířkách nic nepřetéká, stránka je lehká (0,41 MB) a hlavní akce „Mám zájem“ → e-shop je srozumitelná."
+  ],
+  "verdikt": "Funkční a poctivý katalog doprodeje s dobrým nápadem visaček. Hero bez fotky, chybné textové logo a čtyři monotónní produktové bloky s malými fotkami ho ale drží pod hranicí pro odeslání. Verdikt: opravit.",
+  "_hash": "6cab5b9563dd45caa9329a8b543b829fc7f0c1c7"
+}

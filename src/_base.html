@@ -24,10 +24,11 @@
 <a class="skip" href="#obsah">Přeskočit na obsah</a>
 <header class="hlavicka">
   <div class="wrap">
-    <a href="{{ url('') }}" class="logo">{% if site.logo %}<img src="{{ base }}{{ site.logo }}" alt="{{ site.nazev }}" height="40">{% else %}{{ site.nazev }}{% endif %}</a>
+    <a href="{{ url('') }}" class="logo">{% if site.logo %}<img src="{{ base }}{{ site.logo }}" alt="{{ site.nazev }}" height="40">{% else %}GAISLER <span>Zlín</span>{% endif %}</a>
     <nav aria-label="Hlavní">
       {% for n in site.nav %}<a href="{{ n.href if n.href.startswith(('#', 'http', 'tel:', 'mailto:')) else url(n.href) }}">{{ n.text }}</a> {% endfor %}
     </nav>
+    <a class="kontakt" href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a>
   </div>
 </header>
 <main id="obsah">
