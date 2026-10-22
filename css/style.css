@@ -1,0 +1,116 @@
+@font-face{font-family:'Archivo';font-style:normal;font-weight:400;font-display:swap;src:url('../fonts/archivo-400-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:400;font-display:swap;src:url('../fonts/archivo-400-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:600;font-display:swap;src:url('../fonts/archivo-600-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:600;font-display:swap;src:url('../fonts/archivo-600-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:800;font-display:swap;src:url('../fonts/archivo-800-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:800;font-display:swap;src:url('../fonts/archivo-800-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url('../fonts/ibmplexmono-400-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url('../fonts/ibmplexmono-400-latin.woff2') format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+:root{--modra:#0049b3;--modra-t:#00378a;--papir:#f3f1ea;--bila:#fff;--ink:#0f1a2e;--tlumena:#4a5568;--cara:#d9d5c8;--cervena:#c8341f;--sans:'Archivo',system-ui,sans-serif;--mono:'IBM Plex Mono',ui-monospace,monospace}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;overflow-x:clip;scroll-padding-top:4.5rem}
+body{margin:0;background:var(--papir);color:var(--ink);font:400 1.0625rem/1.6 var(--sans);overflow-x:clip}
+img{display:block;max-width:100%;height:auto}
+a{color:var(--modra)}
+.wrap{width:min(72rem,100% - 2.5rem);margin-inline:auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:.5rem 1rem;z-index:20}
+.skip:focus{left:0}
+.hlavicka{position:sticky;top:0;z-index:10;background:var(--papir);border-bottom:2px solid var(--ink)}
+.hlavicka .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:3.5rem}
+.logo{font:800 1.25rem/1 var(--sans);letter-spacing:.04em;text-transform:uppercase;color:var(--ink);text-decoration:none;white-space:nowrap}
+.logo span{color:var(--modra);font-weight:400;text-transform:none;letter-spacing:.02em}
+.hlavicka nav{display:flex;gap:1.25rem}
+.hlavicka nav a{font:600 .9375rem var(--sans);color:var(--ink);text-decoration:none;padding:.5rem 0;border-bottom:2px solid transparent}
+.hlavicka nav a:hover{border-color:var(--modra)}
+:focus-visible{outline:3px solid var(--modra);outline-offset:3px}
+
+.uvod{padding:clamp(2.5rem,7vw,5.5rem) 0 clamp(2rem,5vw,3.5rem)}
+.uvod-mrizka{display:grid;gap:2.5rem;grid-template-columns:1fr}
+@media(min-width:56rem){.uvod-mrizka{grid-template-columns:1fr 1.1fr;align-items:center}}
+.stitek{display:inline-block;margin:0 0 1rem;font:400 .875rem var(--mono);text-transform:uppercase;letter-spacing:.08em;color:#fff;background:var(--cervena);padding:.25rem .7rem}
+h1{margin:0 0 1.25rem;font:800 clamp(2.1rem,5.6vw,4rem)/1.04 var(--sans);letter-spacing:-.02em;max-width:18ch;text-wrap:balance}
+.perex{max-width:36rem;margin:0 0 1.75rem;font-size:1.1875rem;color:var(--tlumena)}
+.tlacitko{display:inline-block;background:var(--modra);color:#fff;font:600 1rem var(--sans);text-decoration:none;padding:.9rem 1.6rem;border:2px solid var(--modra);transition:background .15s,transform .15s}
+.tlacitko:hover{background:var(--modra-t);transform:translateY(-2px)}
+.souhrn{margin:0;display:grid;grid-template-columns:repeat(3,1fr);border:2px solid var(--ink);background:var(--bila)}
+@media(min-width:56rem){.souhrn{grid-template-columns:1fr}}
+.souhrn div{padding:.9rem 1rem;border-right:2px solid var(--ink)}
+.souhrn div:last-child{border:0}
+@media(min-width:56rem){.souhrn div{display:flex;justify-content:space-between;align-items:baseline;border-right:0;border-bottom:2px solid var(--ink)}.souhrn div:last-child{border:0}}
+.souhrn dt{font:400 .8125rem var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--tlumena)}
+.souhrn dd{margin:0;font:800 1.75rem/1.1 var(--sans)}
+
+.katalog{border-top:2px solid var(--ink)}
+.polozka{display:grid;gap:2rem;padding:clamp(2rem,5vw,3.5rem) 0;border-bottom:2px solid var(--ink)}
+.polozka:last-child{border-bottom:0}
+@media(min-width:62rem){.polozka{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:3.5rem}.polozka .foto{align-self:start;position:sticky;top:5rem}}
+.foto-plocha{background:var(--bila);border:2px solid var(--ink);padding:1rem}
+.foto-plocha img{width:100%;max-height:34rem;object-fit:contain;margin-inline:auto}
+.nahledy{display:flex;gap:.6rem;margin-top:.6rem}
+.nahled{width:5.5rem;padding:.3rem;background:var(--bila);border:2px solid var(--cara);cursor:pointer}
+.nahled[aria-pressed=true]{border-color:var(--modra)}
+.nahled img{width:100%;height:3.4rem;object-fit:cover}
+.cislo{margin:0 0 .5rem;font:400 .875rem var(--mono);color:var(--modra);letter-spacing:.06em}
+h2{margin:0;font:800 clamp(1.6rem,3.4vw,2.35rem)/1.1 var(--sans);letter-spacing:-.015em;text-wrap:balance}
+.podnadpis{margin:.4rem 0 1rem;font:400 1rem var(--mono);color:var(--tlumena)}
+.popis{margin:0 0 1.25rem}
+.parametry{margin:0 0 1.75rem;border-top:1px solid var(--cara)}
+.parametry div{display:grid;grid-template-columns:9.5rem 1fr;gap:1rem;padding:.55rem 0;border-bottom:1px solid var(--cara)}
+.parametry dt{font:400 .8125rem var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--tlumena);padding-top:.15rem}
+.parametry dd{margin:0}
+@media(max-width:30rem){.parametry div{grid-template-columns:1fr;gap:.1rem}}
+.cedulky{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem}
+.cedulka{position:relative;background:var(--bila);border:2px solid var(--ink);padding:1.1rem 1.4rem 1rem 3rem;min-width:13rem;transform:rotate(-1.2deg);box-shadow:4px 4px 0 var(--ink)}
+.cedulka:nth-child(2){transform:rotate(.9deg)}
+.cedulka::before{content:"";position:absolute;left:.9rem;top:50%;width:.9rem;height:.9rem;margin-top:-.45rem;border-radius:50%;background:var(--papir);border:2px solid var(--ink)}
+.cedulka::after{content:"";position:absolute;left:2.2rem;top:.5rem;bottom:.5rem;border-left:2px dashed var(--cara)}
+.cedulka>*{margin:0}
+.razitko{display:inline-block;font:400 .8125rem var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--cervena);border:1.5px solid var(--cervena);padding:.05rem .45rem;margin-bottom:.4rem!important;margin-left:.5rem!important}
+.rozmer{font:600 1rem var(--sans);margin-left:.5rem!important}
+.cena{margin-left:.5rem!important}
+.cena strong{font:800 1.9rem/1.2 var(--sans);letter-spacing:-.01em}
+.cena span{font:400 .8125rem var(--mono);color:var(--tlumena)}
+.bez{margin-left:.5rem!important;font:400 .8125rem var(--mono);color:var(--tlumena)}
+.poznamka{margin:.9rem 0 0;font-size:.875rem;color:var(--tlumena)}
+
+.objednat{background:var(--ink);color:#fff;padding:clamp(2.5rem,6vw,4rem) 0}
+.objednat h2{margin-bottom:1.5rem}
+.kroky{list-style:none;margin:0 0 1.75rem;padding:0;display:grid;gap:1rem}
+@media(min-width:48rem){.kroky{grid-template-columns:repeat(3,1fr);gap:1.5rem}}
+.kroky li{display:flex;gap:1rem;align-items:flex-start;border-top:2px solid #fff;padding-top:1rem}
+.kroky span{font:800 2rem/1 var(--sans);color:#fff}
+.kroky p{margin:0}
+.doplneni{margin:0}.doplneni a{display:inline-block;padding:.7rem 0}
+.objednat a{color:#fff}
+.paticka{padding:1.5rem 0 2rem;font-size:.9375rem;color:var(--tlumena)}
+.paticka .wrap{display:flex;flex-wrap:wrap;gap:.5rem 2rem}
+.paticka p{margin:0}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+@media(max-width:36rem){.cedulka{transform:none!important}.hlavicka nav{gap:.9rem}}
+@media(max-width:30rem){.logo{font-size:1rem}.hlavicka nav a{font-size:.8125rem}}
+.logo,.hlavicka nav a{display:inline-flex;align-items:center;min-height:2.75rem}.doplneni a{min-height:2.75rem;display:inline-flex;align-items:center}
+.uvod-foto{position:relative;background:var(--bila);border:2px solid var(--ink);padding:.75rem}
+.razitko-foto{position:absolute;right:-.5rem;bottom:1.2rem;margin:0;background:var(--cervena);color:#fff;font:600 1rem var(--sans);padding:.5rem .9rem;transform:rotate(-2deg);box-shadow:3px 3px 0 var(--ink)}
+.souhrn-radek{margin:0 0 1.5rem;font:400 .875rem var(--mono);color:var(--tlumena)}
+.vice{margin:-1rem 0 1.5rem}
+.vice summary{cursor:pointer;font:600 .9375rem var(--sans);color:var(--modra);padding:.6rem 0;min-height:2.75rem}
+.vice .parametry{margin-bottom:0}
+.hlavicka .kontakt{font:600 .9375rem var(--sans);text-decoration:none}
+@media(max-width:48rem){.hlavicka .kontakt{display:none}}
+.paticka a{display:inline-flex;align-items:center;min-height:2.75rem}
+
+.logo span{margin-left:.3em}
+.hlavicka .wrap{flex-wrap:wrap;row-gap:0}
+@media(max-width:48rem){.hlavicka .kontakt{display:inline-flex;order:3;flex-basis:100%;min-height:2.5rem;border-top:1px solid var(--cara);font-size:.875rem}}
+.uvod-foto{border:0;background:none;padding:0}
+.uvod-foto img{width:100%;max-height:70vh;object-fit:contain}
+@media(min-width:56rem){.uvod-mrizka{grid-template-columns:.8fr 1.2fr}}
+.foto-plocha{border:0;padding:0;background:var(--bila)}
+@media(min-width:62rem){.polozka{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}}
+.cedulky{margin:1rem 0 1.25rem}
+.udaje .tlacitko{margin-bottom:1.25rem}
+.popis{margin-top:0}
+@media(max-width:30rem){.parametry div{grid-template-columns:7.5rem 1fr;gap:.75rem}}
+@media(min-width:56rem){.uvod-mrizka{grid-template-columns:.7fr 1.3fr}.uvod-foto img{max-height:72vh}}
+@media(max-width:55.99rem){.uvod-foto img{display:none}.uvod-foto{position:static}.razitko-foto{position:static;display:inline-block;transform:rotate(-1deg)}}
