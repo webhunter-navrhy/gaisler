@@ -244,5 +244,114 @@
   "cena": "40",
   "bez_dph": "33,10",
   "odkaz": "http://www.gaisler.zlin.cz/product/13175.drzak_fixu_economy/"
+ },
+ {
+  "id": "korek",
+  "cislo": "07",
+  "nazev": "Korková tabule v hliníkovém rámu",
+  "podnadpis": "závěsná nástěnka, rám 25 mm",
+  "kusu": 3,
+  "popis": "Závěsná korková nástěnka na upínání papírů a dalších materiálů špendlíky nebo připínáčky. Robustní hliníkový rám šíře 25 mm pro zavěšení na stěnu, montážní balíček je součástí.",
+  "parametry": [
+   [
+    "Povrch",
+    "korek"
+   ],
+   [
+    "Rám",
+    "hliník, šíře 25 mm"
+   ],
+   [
+    "Upevnění",
+    "závěsná, montážní balíček v ceně"
+   ],
+   [
+    "Použití",
+    "špendlíky, připínáčky"
+   ]
+  ],
+  "foto": [
+   "korkova-tabule-1.jpg",
+   "korkova-tabule-2.jpg"
+  ],
+  "alt": [
+   "Korková tabule v hliníkovém rámu",
+   "Korková tabule v hliníkovém rámu, druhý pohled"
+  ],
+  "varianty": [
+   {
+    "rozmer": "100×150 cm",
+    "kusu": 2,
+    "cena": "1 356",
+    "bez_dph": "1 120"
+   },
+   {
+    "rozmer": "120×240 cm",
+    "kusu": 1,
+    "cena": "2 372",
+    "bez_dph": "1 960"
+   }
+  ],
+  "odkaz": "http://www.gaisler.zlin.cz/product/3108.korkova-tabule-hlinikovy-ram-nastenka/"
+ },
+ {
+  "id": "magnety",
+  "cislo": "08",
+  "nazev": "Kancelářské magnety v plastu, kulaté, mix barev",
+  "podnadpis": "průměr 13, 20 a 30 mm",
+  "kusu": 0,
+  "popis": "Zabroušené magnety pro práci s bílými tabulemi. Feritové jádro je obaleno barevným plastem, feritová plocha nepoškrábe citlivý povrch tabule. Ergonomický úchop, silná přítlačná síla, prodávají se volně bez blistrů. Barvy: bílá, černá, červená, modrá, zelená, žlutá.",
+  "parametry": [
+   [
+    "Tvar",
+    "kulaté"
+   ],
+   [
+    "Barvy",
+    "bílá, černá, červená, modrá, zelená, žlutá"
+   ],
+   [
+    "Balení",
+    "volně, bez blistrů"
+   ],
+   [
+    "Určení",
+    "bílé tabule"
+   ]
+  ],
+  "foto": [
+   "magnety-13.jpg",
+   "magnety-20.jpg",
+   "magnety-30.jpg"
+  ],
+  "alt": [
+   "Kulaté plastové magnety v mixu barev, průměr 13 mm",
+   "Kulaté plastové magnety v mixu barev, průměr 20 mm",
+   "Kulaté plastové magnety v mixu barev, průměr 30 mm"
+  ],
+  "varianty": [
+   {
+    "rozmer": "průměr 13 mm",
+    "kusu": 0,
+    "kusu_text": "skladem tisíce ks",
+    "cena": "0,90",
+    "bez_dph": "0,744"
+   },
+   {
+    "rozmer": "průměr 20 mm",
+    "kusu": 0,
+    "kusu_text": "skladem tisíce ks",
+    "cena": "1,20",
+    "bez_dph": "0,992"
+   },
+   {
+    "rozmer": "průměr 30 mm",
+    "kusu": 0,
+    "kusu_text": "skladem stovky ks",
+    "cena": "3,50",
+    "bez_dph": "2,893"
+   }
+  ],
+  "odkaz": "http://www.gaisler.zlin.cz/product/14050.kancelarske-magnety-v-plastu-13mm-15mm/"
  }
 ]

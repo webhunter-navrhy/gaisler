@@ -9,11 +9,11 @@
     <div>
       <p class="stitek">Doprodej skladu</p>
       <h1>Školní tabule a vitríny skladem za akční ceny</h1>
-      <p class="perex">Pylonové tabule, korková vitrína, otočná keramická tabule a drobné příslušenství. Každý kus je skladem a jde objednat na našem e-shopu.</p>
+      <p class="perex">Pylonové tabule, korková vitrína a nástěnky, otočná keramická tabule a drobné příslušenství. Každý kus je skladem a jde objednat na našem e-shopu.</p>
       <p class="souhrn-radek">{{ data.polozky|length }} položek skladem · ceny s DPH</p>
       <a class="tlacitko" href="#katalog">Prohlédnout katalog</a>
     </div>
-    <div class="uvod-foto">{{ img('triptych-otevreny.jpg', 'Pylonová tabule TRIPTYCH s otevřenými křídly', sizes='(min-width: 56rem) 34rem, 100vw', eager=true) }}<p class="razitko-foto">od 40 Kč s DPH</p></div>
+    <div class="uvod-foto">{{ img('triptych-otevreny.jpg', 'Pylonová tabule TRIPTYCH s otevřenými křídly', sizes='(min-width: 56rem) 34rem, 100vw', eager=true) }}<p class="razitko-foto">od 0,90 Kč s DPH</p></div>
   </div>
 </section>
 
@@ -39,7 +39,7 @@
       <div class="cedulky">
         {% for v in p.varianty %}
         <div class="cedulka">
-          <p class="razitko">skladem {{ v.kusu }} ks</p>
+          <p class="razitko">{{ v.kusu_text if 'kusu_text' in v else 'skladem ' ~ v.kusu ~ ' ks' }}</p>
           <p class="rozmer">{{ v.rozmer }}</p>
           <p class="cena"><strong>{{ v.cena }} Kč</strong> <span>s DPH</span></p>
           <p class="bez">{{ v.bez_dph }} Kč bez DPH</p>
