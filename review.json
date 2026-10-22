@@ -1,18 +1,17 @@
 {
   "znamka": 7,
   "slabiny": [
-    "Hlavička na všech šířkách: GAISLER a Zlín se pořád čtou slepeně jako „GAISLERZlín“. Mezi slova vložit skutečnou mezeru nebo margin-left 0.3em, aby bylo vidět „GAISLER Zlín“. Na mobilu 390/360 px v hlavičce chybí e-mail gaisler@gaisler.zlin.cz, který je na PC vpravo. Doplnit ho na mobilu jako odkaz s výškou aspoň 44 px (např. ikona obálky vpravo vedle Katalog / Jak objednat, nebo druhý řádek pod logem).",
-    "Hero na PC 1440: fotka triptychu je jen střední snímek v rámečku na zhruba 40 % šířky, pod ní zůstává prázdná béžová plocha a první obrazovku pořád nese hlavně text. Fotku zvětšit na 55–60 % šířky a výšku zhruba 70 % viewportu, rámeček zrušit (fotka přímo na ploše) a visačku „od 2 990 Kč s DPH“ nechat v rohu fotky.",
-    "Produktové bloky 01–04: na PC je fotka pořád v rámečku na zhruba 49 % šířky. Zvětšit na 55 % a zrušit border (bílé pozadí produktu stačí). Na mobilu jsou parametry pořád pod sebou ve stylu štítek nad hodnotou. Dát je do dvou sloupců (štítek vlevo, hodnota vpravo na jednom řádku). Cenovku a „Mám zájem“ přesunout hned pod název a podtitul, před 4–6řádkový popis, aby byly na 390 px nad ohybem."
+    "Hero na PC 1440 je opravené jen napůl. Rámeček zmizel a visačka „od 2 990 Kč s DPH“ je v rohu fotky, to je v pořádku. Fotka triptychu ale pořád zabírá jen asi 46 % šířky a 42 % výšky viewportu a první obrazovku dál nese hlavně text vlevo. Fotku zvětšit doslova podle minulé výtky: grid hero zhruba 40/60 ve prospěch fotky, výška fotky kolem 70vh, h1 a text nechat v užším levém sloupci.",
+    "Mobil 390 px: v hero je fotka triptychu a hned pod oddělovací čarou začíná produkt 01 se stejnou fotkou triptychu. Uživatel tak vidí dvakrát za sebou totéž. V hero na mobilu použít jiný obrázek (např. zelenou SINGLE nebo kompozici všech 4 produktů vedle sebe), nebo hero fotku na mobilu skrýt a visačku „od 2 990 Kč“ dát pod CTA.",
+    "Mobil 390 px, první obrazovka (_snimky/m_00): hlavička je vidět jen s řádkem e-mailu, řádek „GAISLER Zlín / Katalog / Jak objednat“ chybí a h1 „Školní tabule a…“ je nahoře useknutý. Na ostatních snímcích je hlavička celá. Ověřit, že sticky hlavička při prvním scrollu neschovává řádek s logem (position: sticky; top: 0 na celém headeru, ne jen na jeho části) a že h1 má scroll-margin a nezajíždí pod ni."
   ],
   "zavazne": [],
   "silne": [
-    "Hero už ukazuje produkt (triptych) s visačkou „od 2 990 Kč s DPH“. Box se statistikami bez údaje zmizel a nahradil ho jeden řádek „4 položky · 10 kusů skladem · ceny s DPH“.",
-    "Nápad s cenovkou ze skladu (razítko SKLADEM X KS, cena s DPH i bez DPH, mono písmo) sedí k doprodeji a drží se v celém katalogu.",
-    "Brandová modrá #0049B3 je v logu, CTA i odkazech. Ceny i parametry odpovídají briefu a nic není vymyšlené.",
-    "Parametry zkrácené na 4 hlavní a zbytek pod „Všechny parametry“. QA je čistá: bez přetékání na 6 šířkách, bez malých dotykových cílů, 0,41 MB.",
-    "Sekce Jak objednat ve 3 krocích jasně vysvětluje, že objednávka proběhne na e-shopu."
+    "Hlavička se čte jako „GAISLER Zlín“ s mezerou. E-mail je na mobilu jako druhý řádek pod logem a QA nehlásí malé dotykové cíle.",
+    "Produktové bloky jsou na mobilu opravené: parametry jsou ve dvou sloupcích (štítek vlevo, hodnota vpravo) a cenovka s „Mám zájem“ stojí hned pod názvem, před popisem. Na PC je fotka bez borderu na bílém pozadí produktu.",
+    "Koncept skladové cenovky s dírkou a štítkem SKLADEM X KS přesně sedí na doprodej skladu. Modrá #0049B3 drží brand, ceny s DPH i bez DPH jsou jasné a nic není vymyšlené.",
+    "QA je čisté: žádné přetečení na 6 šířkách, 0,41 MB, noindex, ?v= i JSON-LD jsou v pořádku."
   ],
-  "verdikt": "Hlavní výtka je opravená: hero má fotku a cenu a box s prázdnou buňkou zmizel. Hlavička i produktové bloky jsou ale opravené jen napůl (slepené logo, chybějící e-mail na mobilu, menší fotky v rámečcích, cena až pod popisem). Bez závažných vad, ale na 8 to ještě není: opravit.",
-  "_hash": "bee9d00f27d26f7af7d199649aba024a0b0045c8"
+  "verdikt": "Dvě ze tří výtek jsou opravené (hlavička, produktové bloky na mobilu i PC). Hero na PC je zatím opravený jen částečně, fotka je pořád malá a první dojem dál nese text. Po zvětšení hero fotky a vyřešení dvojité fotky triptychu na mobilu je to na 8.",
+  "_hash": "6895872b9c8ce60f09df75adfc232b57d60fcfb7"
 }

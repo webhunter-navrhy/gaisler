@@ -112,3 +112,5 @@ h2{margin:0;font:800 clamp(1.6rem,3.4vw,2.35rem)/1.1 var(--sans);letter-spacing:
 .udaje .tlacitko{margin-bottom:1.25rem}
 .popis{margin-top:0}
 @media(max-width:30rem){.parametry div{grid-template-columns:7.5rem 1fr;gap:.75rem}}
+@media(min-width:56rem){.uvod-mrizka{grid-template-columns:.7fr 1.3fr}.uvod-foto img{max-height:72vh}}
+@media(max-width:55.99rem){.uvod-foto img{display:none}.uvod-foto{position:static}.razitko-foto{position:static;display:inline-block;transform:rotate(-1deg)}}
