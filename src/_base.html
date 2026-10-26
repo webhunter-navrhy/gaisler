@@ -37,6 +37,7 @@
 <footer class="paticka">
   <div class="wrap">
     <p><strong>{{ site.nazev }}</strong> · doprodej skladových zásob</p>
+    {% if site.ico %}<p>IČ {{ site.ico }}{% if site.dic %} · DIČ {{ site.dic }}{% endif %}</p>{% endif %}
     {% if site.kontakt.email %}<p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>{% endif %}
     {% if site.kontakt.telefon %}<p><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></p>{% endif %}
   </div>

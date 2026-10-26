@@ -353,5 +353,133 @@
    }
   ],
   "odkaz": "http://www.gaisler.zlin.cz/product/14050.kancelarske-magnety-v-plastu-13mm-15mm/"
+ },
+ {
+  "id": "paravan",
+  "cislo": "09",
+  "nazev": "Paravan, dělící stěna korek o třech polích",
+  "podnadpis": "tři oboustranné korkové panely, čtyři stojny",
+  "popis": "Korková dělící stěna se skládá ze tří panelů a čtyř stojen. Každý panel je oboustranná tabule s korkovým povrchem na bodcové (špendlíkové) upínání předloh, v hliníkovém rámu. Panely jsou spojeny stojnami s panty a stojí ve volném prostoru. Stabilitu dává vychýlení ploch z řady do cik-cak zalomení. Panely jsou robustní a odolné.",
+  "parametry": [
+   [
+    "Povrch",
+    "korek, oboustranný"
+   ],
+   [
+    "Rám",
+    "hliník, síla 25 mm"
+   ],
+   [
+    "Sestava",
+    "3 panely, 4 stojny s panty"
+   ],
+   [
+    "Výška stojen",
+    "200 cm"
+   ]
+  ],
+  "foto": [
+   "paravan-korek.jpg"
+  ],
+  "alt": [
+   "Korková dělící stěna paravan o třech polích"
+  ],
+  "varianty": [
+   {
+    "rozmer": "panely 90×120 cm",
+    "kusu": 1,
+    "cena": "8 216",
+    "bez_dph": "6 790"
+   },
+   {
+    "rozmer": "panely 100×150 cm",
+    "kusu": 2,
+    "cena": "8 833",
+    "bez_dph": "7 300"
+   }
+  ],
+  "odkaz": "http://www.gaisler.zlin.cz/product/3129.korkovy-panel-delici-stena-nastenka-paravan/"
+ },
+ {
+  "id": "textilni",
+  "cislo": "10",
+  "nazev": "Textilní tabule v hliníkovém rámu, modrá",
+  "podnadpis": "závěsná nástěnka s filcem",
+  "popis": "Závěsná textilní nástěnka na upínání papíru a jiných materiálů špendlíky nebo připínáčky. Plocha je potažena barevným filcem (námořnická modř), hliníkový rám šíře 25 mm je určen k zavěšení na stěnu. Montážní balíček je součástí tabule. Menší rozměr je možný i v šedé barvě.",
+  "parametry": [
+   [
+    "Povrch",
+    "filc, námořnická modř"
+   ],
+   [
+    "Rám",
+    "hliník, šíře 25 mm"
+   ],
+   [
+    "Upevnění",
+    "závěsná, montážní balíček v ceně"
+   ],
+   [
+    "Použití",
+    "špendlíky, připínáčky"
+   ]
+  ],
+  "foto": [
+   "textilni-tabule-modra.jpg"
+  ],
+  "alt": [
+   "Textilní tabule v hliníkovém rámu, modrý filc"
+  ],
+  "varianty": [
+   {
+    "rozmer": "60×90 cm (i šedá)",
+    "kusu": 2,
+    "cena": "944",
+    "bez_dph": "780"
+   },
+   {
+    "rozmer": "100×150 cm",
+    "kusu": 1,
+    "cena": "1 549",
+    "bez_dph": "1 280"
+   }
+  ],
+  "odkaz": "http://www.gaisler.zlin.cz/product/1893.textilni-tabule-hlinikovy-ram-nastenka/"
+ },
+ {
+  "id": "houba",
+  "cislo": "11",
+  "nazev": "Magnetická houba na bílé tabule, velká",
+  "podnadpis": "ergonomický úchop, 150×55 mm",
+  "kusu": 0,
+  "kusu_text": "skladem stovky ks",
+  "popis": "Odlehčená magnetická houba s větší magnetickou silou pro stírání bílých tabulí za sucha. Ergonomicky vytvarovaný úchop a velká mazací plocha 150×55 mm. Houba funguje na principu výměnného stíracího filcu na suchém zipu.",
+  "parametry": [
+   [
+    "Mazací plocha",
+    "150×55 mm"
+   ],
+   [
+    "Uchycení",
+    "magnetické"
+   ],
+   [
+    "Filc",
+    "výměnný, na suchém zipu"
+   ],
+   [
+    "Použití",
+    "stírání za sucha"
+   ]
+  ],
+  "foto": [
+   "houba-ergo.jpg"
+  ],
+  "alt": [
+   "Velká ergonomická magnetická houba na bílé tabule"
+  ],
+  "cena": "109",
+  "bez_dph": "90",
+  "odkaz": "http://www.gaisler.zlin.cz/product/9000.ergo-ergonomicka-houba-magneticka-houba-mazani-stirani-bile-tabule/"
  }
 ]

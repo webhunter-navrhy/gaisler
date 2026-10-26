@@ -11,10 +11,10 @@
   "logo": "",
   "theme_color": "#f3f1ea",
   "typ": "Organization",
-  "ico": "",
+  "ico": "12297755",
   "kontakt": {
     "email": "gaisler@gaisler.zlin.cz",
-    "telefon": "",
+    "telefon": "602 554 012",
     "adresa": {
       "ulice": "",
       "psc": "",
@@ -39,5 +39,6 @@
       "text": "Jak objednat",
       "href": "#objednat"
     }
-  ]
+  ],
+  "dic": "CZ5710230966"
 }
