@@ -335,21 +335,24 @@
     "kusu": 0,
     "kusu_text": "skladem tisíce ks",
     "cena": "0,90",
-    "bez_dph": "0,744"
+    "bez_dph": "0,744",
+    "odkaz": "http://www.gaisler.zlin.cz/product/14050.kancelarske-magnety-v-plastu-13mm-15mm/"
    },
    {
     "rozmer": "průměr 20 mm",
     "kusu": 0,
     "kusu_text": "skladem tisíce ks",
     "cena": "1,20",
-    "bez_dph": "0,992"
+    "bez_dph": "0,992",
+    "odkaz": "http://www.gaisler.zlin.cz/product/14052.kancelarske-magnety-v-plastu-20mm-25mm/"
    },
    {
     "rozmer": "průměr 30 mm",
     "kusu": 0,
     "kusu_text": "skladem stovky ks",
     "cena": "3,50",
-    "bez_dph": "2,893"
+    "bez_dph": "2,893",
+    "odkaz": "http://www.gaisler.zlin.cz/product/3102.kancelarske-magnety-v-plastu-30mm/"
    }
   ],
   "odkaz": "http://www.gaisler.zlin.cz/product/14050.kancelarske-magnety-v-plastu-13mm-15mm/"

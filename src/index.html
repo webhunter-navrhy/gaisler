@@ -43,6 +43,7 @@
           <p class="rozmer">{{ v.rozmer }}</p>
           <p class="cena"><strong>{{ v.cena }} Kč</strong> <span>s DPH</span></p>
           <p class="bez">{{ v.bez_dph }} Kč bez DPH</p>
+          {% if 'odkaz' in v %}<a class="tlacitko" href="{{ v.odkaz }}" target="_blank" rel="noopener">Mám zájem<span class="sr"> – {{ p.nazev }}, {{ v.rozmer }}, otevře e-shop</span></a>{% endif %}
         </div>
         {% endfor %}
       </div>
@@ -55,7 +56,7 @@
         </div>
       </div>
       {% endif %}
-      <a class="tlacitko" href="{{ p.odkaz }}" target="_blank" rel="noopener">Mám zájem<span class="sr"> – {{ p.nazev }}, otevře e-shop</span></a>
+      {% if not ('varianty' in p and 'odkaz' in p.varianty[0]) %}<a class="tlacitko" href="{{ p.odkaz }}" target="_blank" rel="noopener">Mám zájem<span class="sr"> – {{ p.nazev }}, otevře e-shop</span></a>{% endif %}
 
       <p class="popis">{{ p.popis }}</p>
       <dl class="parametry">
