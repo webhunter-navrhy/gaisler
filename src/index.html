@@ -34,7 +34,7 @@
     <div class="udaje">
       <p class="cislo">{{ p.cislo }} / {{ '%02d'|format(data.polozky|length) }}</p>
       <h2>{{ p.nazev }}</h2>
-      <p class="podnadpis">{{ p.podnadpis }}</p>
+      <p class="podnadpis">{{ p.podnadpis|safe }}</p>
       {% if 'varianty' in p %}
       <div class="cedulky">
         {% for v in p.varianty %}

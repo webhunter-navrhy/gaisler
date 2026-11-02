@@ -54,6 +54,7 @@ h1{margin:0 0 1.25rem;font:800 clamp(2.1rem,5.6vw,4rem)/1.04 var(--sans);letter-
 .cislo{margin:0 0 .5rem;font:400 .875rem var(--mono);color:var(--modra);letter-spacing:.06em}
 h2{margin:0;font:800 clamp(1.6rem,3.4vw,2.35rem)/1.1 var(--sans);letter-spacing:-.015em;text-wrap:balance}
 .podnadpis{margin:.4rem 0 1rem;font:400 1rem var(--mono);color:var(--tlumena)}
+.podnadpis mark.zv{background:none;color:inherit;font-weight:700;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
 .popis{margin:0 0 1.25rem}
 .parametry{margin:0 0 1.75rem;border-top:1px solid var(--cara)}
 .parametry div{display:grid;grid-template-columns:9.5rem 1fr;gap:1rem;padding:.55rem 0;border-bottom:1px solid var(--cara)}
