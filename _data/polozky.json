@@ -3,9 +3,9 @@
   "id": "triptych",
   "cislo": "01",
   "nazev": "Pylonová tabule TRIPTYCH",
-  "podnadpis": "keramická, bílá, 120×200/400 cm",
+  "podnadpis": "<mark class=\"zv\">keramická</mark>, bílá, 120×200/400 cm",
   "kusu": 1,
-  "popis": "Tříplošná pylonová tabule s keramickým povrchem PolyVision. Plochy jsou bílé a určené pro popis za sucha stíratelným fixem. Sloupy z eloxovaného hliníku, střední odkládací lišta.",
+  "popis": "Křídlová pylonová tabule s keramickým povrchem PolyVision. Všech pět ploch je bílých a určených pro popis za sucha stíratelným fixem. Sloupy z eloxovaného hliníku, střední odkládací lišta.",
   "parametry": [
    [
     "Rozměr",
@@ -44,7 +44,7 @@
   "id": "single",
   "cislo": "02",
   "nazev": "Pylonová tabule jednolistá SINGLE",
-  "podnadpis": "keramická, zelená, 120×200 cm",
+  "podnadpis": "<mark class=\"zv\">keramická</mark>, zelená, 120×200 cm",
   "kusu": 4,
   "popis": "Jednolistá pylonová tabule s keramickým povrchem PolyVision v zelené barvě pro popis křídou. Sloupy z eloxovaného hliníku, velká středová odkládací lišta.",
   "parametry": [
@@ -85,7 +85,7 @@
   "nazev": "Interiérová vitrína s korkovou výplní",
   "podnadpis": "60×90 cm, uzamykatelná",
   "kusu": 2,
-  "popis": "Uzamykatelná chráněná nástěnka s korkovou výplní. Hliníkový rám, dvířka s výplní z plexiskla, zámek a 2 klíče. Zavěšuje se na výšku, otevírá se zprava doleva.",
+  "popis": "Uzamykatelná chráněná nástěnka s korkovou výplní. Hliníkový rám, dvířka s výplní z plexiskla, zámek a 2 klíče. Zavěšuje se na výšku, otevírá se zprava doleva nebo zleva doprava podle volby zavěšení vitríny.",
   "parametry": [
    [
     "Rozměr",
