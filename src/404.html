@@ -1,6 +1,7 @@
 {% extends "_base.html" %}
 {% set titulek = 'Stránka nenalezena – ' ~ site.nazev %}
 {% set noindex = true %}
+{% block predhead %}{% if not base %}<script>document.write('<base href="'+(location.hostname.slice(-10)==='.github.io' ? '/{{ site.slug }}/' : '/')+'">')</script>{% endif %}{% endblock %}
 {% block obsah %}
 <section class="sekce"><div class="wrap">
   <h1>Tuto stránku jsme nenašli</h1>

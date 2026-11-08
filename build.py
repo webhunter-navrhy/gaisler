@@ -149,8 +149,9 @@ def main():
     data = nacti_data()
     site = data["site"]
     base = site.get("base", "/")
-    if not base.startswith("/") or not base.endswith("/"):
-        raise BuildError("site.base musí začínat a končit lomítkem (např. /slug/ nebo /)")
+    # base "" = relativní cesty: web funguje na github.io/<slug>/ i na vlastní (sub)doméně bez přestavby (8. 11. 2026)
+    if base and (not base.startswith("/") or not base.endswith("/")):
+        raise BuildError("site.base musí být \"\" (relativní) nebo začínat a končit lomítkem (např. /slug/ nebo /)")
     if not site["url"].endswith("/"):
         site["url"] += "/"
     if os.path.exists(DIST):
@@ -177,7 +178,7 @@ def main():
 
     def url(cesta):
         cesta = cesta.strip("/")
-        return base + (cesta + "/" if cesta else "")
+        return (base + (cesta + "/" if cesta else "")) or "./"
 
     env = Environment(loader=FileSystemLoader(SRC), autoescape=select_autoescape(["html"]), undefined=StrictUndefined)
     env.globals.update(site=site, data=data, base=base, asset=asset, url=url, img=obr.img, img_url=obr.img_url,
